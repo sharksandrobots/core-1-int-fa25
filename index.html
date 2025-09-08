@@ -3,29 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teaching Template</title>
+    <title>Article Template</title>
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <h1>Teaching Template</h1>
-            <button id="theme-toggle" class="theme-toggle">🌙</button>
+            <div class="header-content">
+                <h1 class="site-title">Article Hub</h1>
+                <nav class="nav">
+                    <button id="theme-toggle" class="theme-toggle">🌙</button>
+                    <button id="layout-toggle" class="layout-toggle">📱</button>
+                </nav>
+            </div>
         </header>
         
-        <main class="main-content">
-            <div class="message-box">
-                <h2>This is my headline 0906</h2>
-                <p>This is a simple website template for teaching web development.</p>
-            </div>
+        <main class="article-container" id="article-container">
+            <article class="article-content">
+                <div class="article-meta">
+                    <span class="category">Technology</span>
+                    <time class="publish-date" datetime="2025-09-08">September 8, 2025</time>
+                </div>
+                
+                <h1 class="article-headline">The Future of Web Development: Embracing Modern CSS Grid Layouts</h1>
+                
+                <p class="article-excerpt">
+                    Discover how CSS Grid is revolutionizing the way we approach web layouts, offering unprecedented control over design while maintaining responsive flexibility across all devices.
+                </p>
+                
+                <div class="article-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&auto=format" alt="Modern web development workspace with code on multiple screens" />
+                    <figcaption>Modern web development embraces flexible grid systems for better user experiences.</figcaption>
+                </div>
+                
+                <div class="article-body">
+                    <p class="paragraph">
+                        CSS Grid has fundamentally transformed how developers approach web layout design. Unlike traditional methods that relied heavily on floats, flexbox workarounds, or complex positioning, CSS Grid provides a two-dimensional layout system that gives developers precise control over both rows and columns. This revolutionary approach allows for more intuitive design implementations that closely match the original creative vision while maintaining excellent browser support and performance characteristics.
+                    </p>
+                    
+                    <p class="paragraph">
+                        The power of CSS Grid lies in its ability to create complex, responsive layouts with minimal code. By defining grid templates and areas, developers can easily rearrange content for different screen sizes without compromising the design integrity. This flexibility is particularly valuable in today's multi-device world, where content needs to look exceptional on everything from smartphones to ultra-wide desktop monitors. Grid areas can be named semantically, making the code more readable and maintainable for teams.
+                    </p>
+                    
+                    <p class="paragraph">
+                        As web development continues to evolve, CSS Grid stands alongside modern tools and frameworks as an essential skill for creating professional, accessible websites. When combined with CSS custom properties, modern color spaces, and progressive enhancement techniques, Grid enables developers to build future-proof layouts that adapt gracefully to new devices and user preferences. The learning curve is gentle, but the possibilities are endless – from simple blog layouts to complex dashboard interfaces.
+                    </p>
+                </div>
+                
+                <div class="article-footer">
+                    <div class="author-info">
+                        <div class="author-details">
+                            <h4 class="author-name">Sarah Chen</h4>
+                            <p class="author-bio">Senior Frontend Developer & CSS Grid Enthusiast</p>
+                        </div>
+                    </div>
+                    <div class="article-tags">
+                        <span class="tag">CSS Grid</span>
+                        <span class="tag">Web Development</span>
+                        <span class="tag">Responsive Design</span>
+                        <span class="tag">Modern CSS</span>
+                    </div>
+                </div>
+            </article>
         </main>
         
         <footer class="footer">
-            <p>&copy; 2025 Teaching Template</p>
+            <p>&copy; 2025 Article Hub - Showcasing Modern Web Layouts</p>
         </footer>
     </div>
 
